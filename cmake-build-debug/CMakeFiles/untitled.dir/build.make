@@ -53,10 +53,10 @@ RM = /opt/clion/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/averagejoe/CLionProjects/Trees
+CMAKE_SOURCE_DIR = /home/archjoe/CLionProjects/CPP-Trees
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/averagejoe/CLionProjects/Trees/cmake-build-debug
+CMAKE_BINARY_DIR = /home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -68,43 +68,73 @@ include CMakeFiles/untitled.dir/flags.make
 
 CMakeFiles/untitled.dir/main.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c /home/averagejoe/CLionProjects/Trees/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c /home/archjoe/CLionProjects/CPP-Trees/main.cpp
 
 CMakeFiles/untitled.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/averagejoe/CLionProjects/Trees/main.cpp > CMakeFiles/untitled.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archjoe/CLionProjects/CPP-Trees/main.cpp > CMakeFiles/untitled.dir/main.cpp.i
 
 CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/averagejoe/CLionProjects/Trees/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archjoe/CLionProjects/CPP-Trees/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
 
 CMakeFiles/untitled.dir/treeNode.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/treeNode.cpp.o: ../treeNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/treeNode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/treeNode.cpp.o -c /home/averagejoe/CLionProjects/Trees/treeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/treeNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/treeNode.cpp.o -c /home/archjoe/CLionProjects/CPP-Trees/treeNode.cpp
 
 CMakeFiles/untitled.dir/treeNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/treeNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/averagejoe/CLionProjects/Trees/treeNode.cpp > CMakeFiles/untitled.dir/treeNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archjoe/CLionProjects/CPP-Trees/treeNode.cpp > CMakeFiles/untitled.dir/treeNode.cpp.i
 
 CMakeFiles/untitled.dir/treeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/treeNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/averagejoe/CLionProjects/Trees/treeNode.cpp -o CMakeFiles/untitled.dir/treeNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archjoe/CLionProjects/CPP-Trees/treeNode.cpp -o CMakeFiles/untitled.dir/treeNode.cpp.s
+
+CMakeFiles/untitled.dir/BinaryTree.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/BinaryTree.cpp.o: ../BinaryTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/BinaryTree.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/BinaryTree.cpp.o -c /home/archjoe/CLionProjects/CPP-Trees/BinaryTree.cpp
+
+CMakeFiles/untitled.dir/BinaryTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/BinaryTree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archjoe/CLionProjects/CPP-Trees/BinaryTree.cpp > CMakeFiles/untitled.dir/BinaryTree.cpp.i
+
+CMakeFiles/untitled.dir/BinaryTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/BinaryTree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archjoe/CLionProjects/CPP-Trees/BinaryTree.cpp -o CMakeFiles/untitled.dir/BinaryTree.cpp.s
+
+CMakeFiles/untitled.dir/NtreeNode.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/NtreeNode.cpp.o: ../NtreeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/NtreeNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/NtreeNode.cpp.o -c /home/archjoe/CLionProjects/CPP-Trees/NtreeNode.cpp
+
+CMakeFiles/untitled.dir/NtreeNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/NtreeNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/archjoe/CLionProjects/CPP-Trees/NtreeNode.cpp > CMakeFiles/untitled.dir/NtreeNode.cpp.i
+
+CMakeFiles/untitled.dir/NtreeNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/NtreeNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/archjoe/CLionProjects/CPP-Trees/NtreeNode.cpp -o CMakeFiles/untitled.dir/NtreeNode.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.o" \
-"CMakeFiles/untitled.dir/treeNode.cpp.o"
+"CMakeFiles/untitled.dir/treeNode.cpp.o" \
+"CMakeFiles/untitled.dir/BinaryTree.cpp.o" \
+"CMakeFiles/untitled.dir/NtreeNode.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled: CMakeFiles/untitled.dir/main.cpp.o
 untitled: CMakeFiles/untitled.dir/treeNode.cpp.o
+untitled: CMakeFiles/untitled.dir/BinaryTree.cpp.o
+untitled: CMakeFiles/untitled.dir/NtreeNode.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -116,6 +146,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend:
-	cd /home/averagejoe/CLionProjects/Trees/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/averagejoe/CLionProjects/Trees /home/averagejoe/CLionProjects/Trees /home/averagejoe/CLionProjects/Trees/cmake-build-debug /home/averagejoe/CLionProjects/Trees/cmake-build-debug /home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/archjoe/CLionProjects/CPP-Trees /home/archjoe/CLionProjects/CPP-Trees /home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug /home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug /home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled.dir/depend
 

@@ -57,10 +57,10 @@ RM = /opt/clion/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/averagejoe/CLionProjects/Trees
+CMAKE_SOURCE_DIR = /home/archjoe/CLionProjects/CPP-Trees
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/averagejoe/CLionProjects/Trees/cmake-build-debug
+CMAKE_BINARY_DIR = /home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles /home/averagejoe/CLionProjects/Trees/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles /home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,54 @@ untitled: cmake_check_build_system
 untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
+
+BinaryTree.o: BinaryTree.cpp.o
+.PHONY : BinaryTree.o
+
+# target to build an object file
+BinaryTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/BinaryTree.cpp.o
+.PHONY : BinaryTree.cpp.o
+
+BinaryTree.i: BinaryTree.cpp.i
+.PHONY : BinaryTree.i
+
+# target to preprocess a source file
+BinaryTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/BinaryTree.cpp.i
+.PHONY : BinaryTree.cpp.i
+
+BinaryTree.s: BinaryTree.cpp.s
+.PHONY : BinaryTree.s
+
+# target to generate assembly for a file
+BinaryTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/BinaryTree.cpp.s
+.PHONY : BinaryTree.cpp.s
+
+NtreeNode.o: NtreeNode.cpp.o
+.PHONY : NtreeNode.o
+
+# target to build an object file
+NtreeNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/NtreeNode.cpp.o
+.PHONY : NtreeNode.cpp.o
+
+NtreeNode.i: NtreeNode.cpp.i
+.PHONY : NtreeNode.i
+
+# target to preprocess a source file
+NtreeNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/NtreeNode.cpp.i
+.PHONY : NtreeNode.cpp.i
+
+NtreeNode.s: NtreeNode.cpp.s
+.PHONY : NtreeNode.s
+
+# target to generate assembly for a file
+NtreeNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/NtreeNode.cpp.s
+.PHONY : NtreeNode.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled"
+	@echo "... BinaryTree.o"
+	@echo "... BinaryTree.i"
+	@echo "... BinaryTree.s"
+	@echo "... NtreeNode.o"
+	@echo "... NtreeNode.i"
+	@echo "... NtreeNode.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

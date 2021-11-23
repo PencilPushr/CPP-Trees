@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/treeNode.cpp.o -o untitled 
+/usr/bin/c++ -g CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/treeNode.cpp.o CMakeFiles/untitled.dir/BinaryTree.cpp.o CMakeFiles/untitled.dir/NtreeNode.cpp.o -o untitled 

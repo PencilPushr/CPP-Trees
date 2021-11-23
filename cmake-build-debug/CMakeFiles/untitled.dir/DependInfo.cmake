@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/averagejoe/CLionProjects/Trees/main.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
-  "/home/averagejoe/CLionProjects/Trees/treeNode.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/treeNode.cpp.o"
+  "/home/archjoe/CLionProjects/CPP-Trees/BinaryTree.cpp" "/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles/untitled.dir/BinaryTree.cpp.o"
+  "/home/archjoe/CLionProjects/CPP-Trees/NtreeNode.cpp" "/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles/untitled.dir/NtreeNode.cpp.o"
+  "/home/archjoe/CLionProjects/CPP-Trees/main.cpp" "/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "/home/archjoe/CLionProjects/CPP-Trees/treeNode.cpp" "/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/CMakeFiles/untitled.dir/treeNode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
