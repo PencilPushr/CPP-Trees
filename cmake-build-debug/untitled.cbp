@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug"/>
+				<Option working_dir="/home/averagejoe/CLionProjects/Trees/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug"/>
+				<Option working_dir="/home/averagejoe/CLionProjects/Trees/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug"/>
+				<Option working_dir="/home/averagejoe/CLionProjects/Trees/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled">
-				<Option output="/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug"/>
+				<Option output="/home/averagejoe/CLionProjects/Trees/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/averagejoe/CLionProjects/Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled/fast">
-				<Option output="/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug"/>
+				<Option output="/home/averagejoe/CLionProjects/Trees/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/averagejoe/CLionProjects/Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,35 +75,35 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/archjoe/CLionProjects/CPP-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/averagejoe/CLionProjects/Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/archjoe/CLionProjects/CPP-Trees/BinaryTree.cpp">
+		<Unit filename="/home/averagejoe/CLionProjects/Trees/BinaryTree.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/archjoe/CLionProjects/CPP-Trees/BinaryTree.h">
+		<Unit filename="/home/averagejoe/CLionProjects/Trees/BinaryTree.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/archjoe/CLionProjects/CPP-Trees/NtreeNode.cpp">
+		<Unit filename="/home/averagejoe/CLionProjects/Trees/NtreeNode.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/archjoe/CLionProjects/CPP-Trees/NtreeNode.h">
+		<Unit filename="/home/averagejoe/CLionProjects/Trees/NtreeNode.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/archjoe/CLionProjects/CPP-Trees/main.cpp">
+		<Unit filename="/home/averagejoe/CLionProjects/Trees/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/archjoe/CLionProjects/CPP-Trees/treeNode.cpp">
+		<Unit filename="/home/averagejoe/CLionProjects/Trees/treeNode.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/archjoe/CLionProjects/CPP-Trees/treeNode.h">
+		<Unit filename="/home/averagejoe/CLionProjects/Trees/treeNode.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/archjoe/CLionProjects/CPP-Trees/CMakeLists.txt">
+		<Unit filename="/home/averagejoe/CLionProjects/Trees/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

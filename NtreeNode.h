@@ -10,6 +10,8 @@
 class NtreeNode {
 
 private:
+
+
     NtreeNode* parent; //children nodes can only have a SINGLE parent node
     NtreeNode** children; //parent nodes can have multiple children nodes
     //std::vector<NtreeNode*> children;
@@ -26,7 +28,26 @@ public:
     NtreeNode(); //default constructor -> delete later
     ~NtreeNode(); //deletes all of the children nodes
 
+    //alternate constructors
+    NtreeNode(NtreeNode parent, NtreeNode* children);
+    NtreeNode(NtreeNode parent, NtreeNode* children, int data, std::string content);
+
+    //Node creation
     NtreeNode* addChild(int data, std::string content);
+    NtreeNode** addChildren(NtreeNode* node, int data, std::string content);
+
+    //getters & setters
+    NtreeNode* getParent();
+    NtreeNode* getChild();
+    void SetChild(NtreeNode* children);
+    void SetChildren(NtreeNode* children);
+
+    //internals
+    int setData();
+    std::string setContent();
+    NtreeNode** getRoot();
+
+
 
 };
 
