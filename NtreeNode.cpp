@@ -15,7 +15,15 @@ NtreeNode::~NtreeNode() {
 }
 
 NtreeNode *NtreeNode::addChild(int data, std::string content) {
-    return nullptr;
+    NtreeNode* newNode = new NtreeNode (data, content);
+    for(auto i=0; reinterpret_cast<NtreeNode *>(i) < getChild(); i++){
+        if(children[i] == nullptr){
+            children[i] = newNode;
+            break;
+        }
+    }
+
+    return newNode;
 }
 
 NtreeNode::NtreeNode(NtreeNode parent, NtreeNode *children) {

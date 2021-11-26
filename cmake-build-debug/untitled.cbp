@@ -94,6 +94,12 @@
 		<Unit filename="/home/averagejoe/CLionProjects/Trees/NtreeNode.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/averagejoe/CLionProjects/Trees/balancedTreeNode.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/averagejoe/CLionProjects/Trees/balancedTreeNode.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/averagejoe/CLionProjects/Trees/main.cpp">
 			<Option target="untitled"/>
 		</Unit>

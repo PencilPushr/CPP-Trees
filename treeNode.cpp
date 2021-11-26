@@ -67,11 +67,11 @@ std::string treeNode::getValueByKey(std::string k) {
 }
 
 treeNode treeNode::getLeft() {
-    return treeNode();
+    return *leftChild;
 }
 
 treeNode treeNode::getRight() {
-    return treeNode();
+    return *rightChild;
 }
 
 std::string treeNode::getKey() {
