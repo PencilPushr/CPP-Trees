@@ -12,7 +12,7 @@ void balancedTreeNode::add(std::string k, std::string v) {
     if (this->root == nullptr){
         this->root = new treeNode(k,v);
     }else{
-        treeNode* temp = new treeNode(k,v);
+        auto* temp = new treeNode(k,v);
         this->root->linkToChild(temp);
     }
 }

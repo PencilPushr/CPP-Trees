@@ -177,6 +177,30 @@ NtreeNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/NtreeNode.cpp.s
 .PHONY : NtreeNode.cpp.s
 
+balancedBinaryTree.o: balancedBinaryTree.cpp.o
+.PHONY : balancedBinaryTree.o
+
+# target to build an object file
+balancedBinaryTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/balancedBinaryTree.cpp.o
+.PHONY : balancedBinaryTree.cpp.o
+
+balancedBinaryTree.i: balancedBinaryTree.cpp.i
+.PHONY : balancedBinaryTree.i
+
+# target to preprocess a source file
+balancedBinaryTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/balancedBinaryTree.cpp.i
+.PHONY : balancedBinaryTree.cpp.i
+
+balancedBinaryTree.s: balancedBinaryTree.cpp.s
+.PHONY : balancedBinaryTree.s
+
+# target to generate assembly for a file
+balancedBinaryTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/balancedBinaryTree.cpp.s
+.PHONY : balancedBinaryTree.cpp.s
+
 balancedTreeNode.o: balancedTreeNode.cpp.o
 .PHONY : balancedTreeNode.o
 
@@ -264,6 +288,9 @@ help:
 	@echo "... NtreeNode.o"
 	@echo "... NtreeNode.i"
 	@echo "... NtreeNode.s"
+	@echo "... balancedBinaryTree.o"
+	@echo "... balancedBinaryTree.i"
+	@echo "... balancedBinaryTree.s"
 	@echo "... balancedTreeNode.o"
 	@echo "... balancedTreeNode.i"
 	@echo "... balancedTreeNode.s"

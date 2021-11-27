@@ -12,15 +12,15 @@
  *
  */
 class balancedTreeNode {
-
 public:
+    //globals
     treeNode* root;
 
     //constructor
     balancedTreeNode();
 
     //methods
-    void  add(std::string k, std::string v);
+    void add(std::string k, std::string v);
     std::string retrieveValueByKey(std::string k);
 };
 

@@ -15,7 +15,7 @@ NtreeNode::~NtreeNode() {
 }
 
 NtreeNode *NtreeNode::addChild(int data, std::string content) {
-    NtreeNode* newNode = new NtreeNode (data, content);
+    NtreeNode* newNode = new NtreeNode(data, content);
     for(auto i=0; reinterpret_cast<NtreeNode *>(i) < getChild(); i++){
         if(children[i] == nullptr){
             children[i] = newNode;
@@ -34,7 +34,7 @@ NtreeNode::NtreeNode(NtreeNode parent, NtreeNode *children, int data, std::strin
 
 }
 
-NtreeNode **NtreeNode::addChildren(NtreeNode *node, int data, std::string content) {
+NtreeNode **NtreeNode::addChildren(NtreeNode *node, int numOfChildren, int data, std::string content) {
     return nullptr;
 }
 
