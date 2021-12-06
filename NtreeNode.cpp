@@ -5,63 +5,64 @@
 #include "NtreeNode.h"
 
 
-NtreeNode::NtreeNode() {
-
-}
-
 NtreeNode::~NtreeNode() {
     for(auto i=0; reinterpret_cast<NtreeNode *>(i) < children[i] ; i++)
         delete children[i];
 }
 
-NtreeNode *NtreeNode::addChild(int data, std::string content) {
-    NtreeNode* newNode = new NtreeNode(data, content);
-    for(auto i=0; reinterpret_cast<NtreeNode *>(i) < getChild(); i++){
+void NtreeNode::addChild(std::string key, std::string content) {
+    NtreeNode* newNode = new NtreeNode(this, key, content);
+    for(auto i=0; reinterpret_cast<NtreeNode *>(i) < getChildren(); i++){
         if(children[i] == nullptr){
             children[i] = newNode;
             break;
         }
     }
-
-    return newNode;
 }
 
-NtreeNode::NtreeNode(NtreeNode parent, NtreeNode *children) {
 
+
+NtreeNode::NtreeNode(NtreeNode *parent, std::string key, std::string content) {
+    this->parent = parent;
+    this->key = key;
+    this->content = content;
 }
 
-NtreeNode::NtreeNode(NtreeNode parent, NtreeNode *children, int data, std::string content) {
-
+bool NtreeNode::matches(std::string key){
+    return (key == this->key); //(key.compare(this->key) == 0)
 }
 
-NtreeNode **NtreeNode::addChildren(NtreeNode *node, int numOfChildren, int data, std::string content) {
+NtreeNode* NtreeNode::getNodeByKey(std::string key){
+    //First, check if THIS node is the correct one.
+    if (this->matches(key)) return this;
+
+    //If not, we need to probe the children.
+    //If all children are probed without success,
+    //send beack a nullpointer
+    for (int i = 0; i < this->numOfChildren; i++){
+        NtreeNode* temp = this->children[i]->getNodeByKey(key);
+        if (temp != nullptr) return temp;
+    }
     return nullptr;
 }
 
 NtreeNode *NtreeNode::getParent() {
-    return nullptr;
+    //check if we are root or an orphaned node
+    if (this->parent == nullptr){
+        return nullptr;
+    }
+    return this->parent;
 }
 
-NtreeNode *NtreeNode::getChild() {
-    return nullptr;
-}
-
-void NtreeNode::SetChild(NtreeNode *children) {
-
-}
-
-void NtreeNode::SetChildren(NtreeNode *children) {
-
-}
-
-NtreeNode **NtreeNode::getRoot() {
-    return nullptr;
-}
-
-int NtreeNode::setData() {
-    return 0;
-}
 
 std::string NtreeNode::setContent() {
     return std::string();
+}
+
+NtreeNode::NtreeNode(std::string key, std::string content) {
+
+}
+
+int NtreeNode::getDepth() {
+    return 0;
 }

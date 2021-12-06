@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/averagejoe/CLionProjects/Trees/BinaryTree.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/BinaryTree.cpp.o"
+  "/home/averagejoe/CLionProjects/Trees/Ntree.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/Ntree.cpp.o"
   "/home/averagejoe/CLionProjects/Trees/NtreeNode.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/NtreeNode.cpp.o"
   "/home/averagejoe/CLionProjects/Trees/balancedBinaryTree.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/balancedBinaryTree.cpp.o"
   "/home/averagejoe/CLionProjects/Trees/balancedTreeNode.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/balancedTreeNode.cpp.o"

@@ -15,7 +15,7 @@ private:
     NtreeNode** children; //parent nodes can have multiple children nodes
     //std::vector<NtreeNode*> children;
 
-    int data;
+    std::string key;
     std::string content;
 
     int depth;
@@ -29,30 +29,26 @@ public:
      */
 
     //constructors and destructors
-    NtreeNode(); //default constructor -> delete later
+    NtreeNode(std::string key, std::string content); //for root creation.
     ~NtreeNode(); //deletes all of the children nodes
 
     //alternate constructors
-    NtreeNode(NtreeNode parent, NtreeNode* children);
-    NtreeNode(NtreeNode parent, NtreeNode* children, int data, std::string content);
+    NtreeNode(NtreeNode* parent, std::string key, std::string content);
 
     //Node creation
-    NtreeNode* addChild(int data, std::string content);
-    NtreeNode** addChildren(NtreeNode* node, int numOfChildren, int data, std::string content); //* might be smart to not include data and content, if we seek to make numerous amounts of children with this method
+    void addChild(std::string key, std::string content);
+    //unsure, but if we insert a child, without context of the parent and key, as opposed to the constructor, simply create a function for it?
+    void addBasedOnKey();
 
     //getters & setters
     NtreeNode* getParent();
-    NtreeNode* getChild();
-    void SetChild(NtreeNode* children);
-    void SetChildren(NtreeNode* children); //*
+    NtreeNode* getChildren();
+    NtreeNode* getNodeByKey(std::string key);
+    int getDepth();
+    bool matches(std::string key);
 
     //internals
-    int setData();
     std::string setContent();
-    NtreeNode** getRoot(); //*
-
-
-
 };
 
 

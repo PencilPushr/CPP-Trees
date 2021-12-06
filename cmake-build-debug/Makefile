@@ -153,6 +153,30 @@ BinaryTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/BinaryTree.cpp.s
 .PHONY : BinaryTree.cpp.s
 
+Ntree.o: Ntree.cpp.o
+.PHONY : Ntree.o
+
+# target to build an object file
+Ntree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Ntree.cpp.o
+.PHONY : Ntree.cpp.o
+
+Ntree.i: Ntree.cpp.i
+.PHONY : Ntree.i
+
+# target to preprocess a source file
+Ntree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Ntree.cpp.i
+.PHONY : Ntree.cpp.i
+
+Ntree.s: Ntree.cpp.s
+.PHONY : Ntree.s
+
+# target to generate assembly for a file
+Ntree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Ntree.cpp.s
+.PHONY : Ntree.cpp.s
+
 NtreeNode.o: NtreeNode.cpp.o
 .PHONY : NtreeNode.o
 
@@ -285,6 +309,9 @@ help:
 	@echo "... BinaryTree.o"
 	@echo "... BinaryTree.i"
 	@echo "... BinaryTree.s"
+	@echo "... Ntree.o"
+	@echo "... Ntree.i"
+	@echo "... Ntree.s"
 	@echo "... NtreeNode.o"
 	@echo "... NtreeNode.i"
 	@echo "... NtreeNode.s"
