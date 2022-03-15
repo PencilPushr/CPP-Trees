@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/averagejoe/CLionProjects/Trees/balancedBinaryTree.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/balancedBinaryTree.cpp.o"
   "/home/averagejoe/CLionProjects/Trees/balancedTreeNode.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/balancedTreeNode.cpp.o"
   "/home/averagejoe/CLionProjects/Trees/main.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "/home/averagejoe/CLionProjects/Trees/tree.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/tree.cpp.o"
   "/home/averagejoe/CLionProjects/Trees/treeNode.cpp" "/home/averagejoe/CLionProjects/Trees/cmake-build-debug/CMakeFiles/untitled.dir/treeNode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

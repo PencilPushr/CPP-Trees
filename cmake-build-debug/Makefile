@@ -273,6 +273,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tree.o: tree.cpp.o
+.PHONY : tree.o
+
+# target to build an object file
+tree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/tree.cpp.o
+.PHONY : tree.cpp.o
+
+tree.i: tree.cpp.i
+.PHONY : tree.i
+
+# target to preprocess a source file
+tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/tree.cpp.i
+.PHONY : tree.cpp.i
+
+tree.s: tree.cpp.s
+.PHONY : tree.s
+
+# target to generate assembly for a file
+tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/tree.cpp.s
+.PHONY : tree.cpp.s
+
 treeNode.o: treeNode.cpp.o
 .PHONY : treeNode.o
 
@@ -324,6 +348,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tree.o"
+	@echo "... tree.i"
+	@echo "... tree.s"
 	@echo "... treeNode.o"
 	@echo "... treeNode.i"
 	@echo "... treeNode.s"
